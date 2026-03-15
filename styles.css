@@ -14,7 +14,7 @@
      - Remove default margin and padding (set both to 0)
 --------------------------------------------------------------- */
  body{
-  font-family:'Arial',sans-serif ;
+  font-family: Arial , sans-serif;
   background-color: #f5f5f5;
   color: #333333;
   margin: 0;
@@ -31,7 +31,7 @@
 #main-header{
   background-color: #2c3e50;
   color:#ffffff;
-  padding:20px;
+  padding: 20px;
   text-align: center;
 
 }
@@ -42,7 +42,7 @@
      - Remove the default margin (set to 0)
 --------------------------------------------------------------- */
 #main-header > h1{ 
-font-size:2.5rem ;
+font-size: 2.5rem ;
 margin: 0;
 }
 
@@ -58,8 +58,7 @@ margin: 0;
 nav a{
   color:#f39c12;
   text-decoration: none;
-  margin-left:10px ;
-  margin-right: 10px ;
+  margin:0 10px;
   font-size: 1rem;
 }
 
@@ -151,7 +150,7 @@ h2{
 .highlight{
   background-color: #f39c12;
   color:#ffffff;
-  border-left:#e67e22 ;
+  border-left-color:#e67e22 ;
 }
 
 
@@ -207,7 +206,7 @@ cite{
   display: inline-block;
   background-color:#2c3e50 ;
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
   padding:12px 24px ;
   border-radius: 4px;
   font-size: 1rem;
